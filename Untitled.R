@@ -1,1 +1,5 @@
-test
+install.packages("usethis")
+library(usethis)
+usethis::use_git_config(user.name = "ranwei-devpsy", user.email = "rwei.research@gmail.com")
+credentials::set_github_pat("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")
+usethis::use_github(protocol = "https", auth_token = "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")
